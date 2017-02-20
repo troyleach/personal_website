@@ -1,3 +1,5 @@
+$background-color: #1f1f1f;
+
 html, body, #root {
   margin: 0;
   height: 100%;
@@ -26,12 +28,13 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: $background-color;
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: #1f1f1f;
+  background-color: $background-color;
 }
 .header-title {
   flex: 1;
@@ -73,40 +76,45 @@ a {
 .footer {
   padding: 0.5rem;
   font-size: 1rem;
-  background-color: #1f1f1f;
+  background-color: $background-color;
   text-align: center;
   color: white;
 }
 
-.techs-container {
+.cards-container {
+  padding-top: 5rem;
   margin: 1rem;
 }
-.techs-h2 {
+.cards-h2 {
+  color: #fff;
   font-weight: 300;
   font-size: 1.5rem;
 }
-.techs {
+.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.tech {
-  height: 15rem;
-  width: 15rem;
+.card {
+  height: 20rem;
+  width: 30rem;
   border: 1px solid lightgray;
-  border-radius: 1rem;
+  border-radius: 0.3rem;
   margin: 1rem;
   padding: 1rem;
+  color: #fff;
+  text-align: center;
 }
-.tech-logo {
+.card-logo {
   width: 5rem;
-  height: 5rem;
+  height: auto;
   float: right;
   margin: 0 0 .5rem .5rem;
 }
-.tech-h3 {
+.card-h3 {
+  color: #fff;
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
 }

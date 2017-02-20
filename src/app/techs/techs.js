@@ -10,6 +10,6 @@ function TechsController($http) {
   $http
     .get('app/techs/techs.json')
     .then(function (response) {
-      vm.techs = response.data;
+      vm.cards = response.data;
     });
 }

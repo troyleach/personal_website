@@ -41316,7 +41316,7 @@ exports = module.exports = __webpack_require__(11)();
 
 
 // module
-exports.push([module.i, "html, body, #root {\n  margin: 0;\n  height: 100%;\n  font-family: 'Open Sans', sans-serif; }\n\nbody, h1, h2, h3 {\n  font-weight: 300; }\n\na {\n  color: white;\n  text-decoration: none; }\n  a:hover {\n    color: #5aadbb; }\n\n.main-container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  min-height: 100%; }\n\n.main {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column; }\n\n.header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  background-color: #1f1f1f; }\n\n.header-title {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  font-size: 1.5rem;\n  margin: 1rem; }\n\n.header-date {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  text-align: right;\n  margin: 1rem;\n  white: white; }\n\n.title {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  padding: 1rem;\n  background-color: #cf4646;\n  color: white; }\n\n.title-h1 {\n  font-weight: 300;\n  font-size: 4rem;\n  margin: 1rem; }\n\n.title-logo {\n  height: 12rem;\n  background-color: white;\n  border-radius: 1rem;\n  margin: 1rem; }\n\n.title-h2 {\n  font-weight: 300;\n  font-size: 2rem;\n  margin: .5rem; }\n\n.footer {\n  padding: 0.5rem;\n  font-size: 1rem;\n  background-color: #1f1f1f;\n  text-align: center;\n  color: white; }\n\n.techs-container {\n  margin: 1rem; }\n\n.techs-h2 {\n  font-weight: 300;\n  font-size: 1.5rem; }\n\n.techs {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  -ms-flex-pack: distribute;\n  justify-content: space-around; }\n\n.tech {\n  height: 15rem;\n  width: 15rem;\n  border: 1px solid lightgray;\n  border-radius: 1rem;\n  margin: 1rem;\n  padding: 1rem; }\n\n.tech-logo {\n  width: 5rem;\n  height: 5rem;\n  float: right;\n  margin: 0 0 .5rem .5rem; }\n\n.tech-h3 {\n  font-size: 1.5rem;\n  margin: 0 0 2rem 0; }\n", ""]);
+exports.push([module.i, "html, body, #root {\n  margin: 0;\n  height: 100%;\n  font-family: 'Open Sans', sans-serif; }\n\nbody, h1, h2, h3 {\n  font-weight: 300; }\n\na {\n  color: white;\n  text-decoration: none; }\n  a:hover {\n    color: #5aadbb; }\n\n.main-container {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  min-height: 100%; }\n\n.main {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  background-color: #1f1f1f; }\n\n.header {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  background-color: #1f1f1f; }\n\n.header-title {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  font-size: 1.5rem;\n  margin: 1rem; }\n\n.header-date {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  text-align: right;\n  margin: 1rem;\n  white: white; }\n\n.title {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  padding: 1rem;\n  background-color: #cf4646;\n  color: white; }\n\n.title-h1 {\n  font-weight: 300;\n  font-size: 4rem;\n  margin: 1rem; }\n\n.title-logo {\n  height: 12rem;\n  background-color: white;\n  border-radius: 1rem;\n  margin: 1rem; }\n\n.title-h2 {\n  font-weight: 300;\n  font-size: 2rem;\n  margin: .5rem; }\n\n.footer {\n  padding: 0.5rem;\n  font-size: 1rem;\n  background-color: #1f1f1f;\n  text-align: center;\n  color: white; }\n\n.cards-container {\n  padding-top: 5rem;\n  margin: 1rem; }\n\n.cards-h2 {\n  color: #fff;\n  font-weight: 300;\n  font-size: 1.5rem; }\n\n.cards {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  -ms-flex-pack: distribute;\n  justify-content: space-around; }\n\n.card {\n  height: 20rem;\n  width: 30rem;\n  border: 1px solid lightgray;\n  border-radius: 0.3rem;\n  margin: 1rem;\n  padding: 1rem;\n  color: #fff;\n  text-align: center; }\n\n.card-logo {\n  width: 5rem;\n  height: auto;\n  float: right;\n  margin: 0 0 .5rem .5rem; }\n\n.card-h3 {\n  color: #fff;\n  font-size: 1.5rem;\n  margin: 0 0 2rem 0; }\n", ""]);
 
 // exports
 
@@ -41381,37 +41381,37 @@ module.exports = function() {
 /* 12 */
 /***/ function(module, exports) {
 
-module.exports = "<footer class=\"footer\">\n  Build with ♥ by the&nbsp;\n  <a href=\"https://github.com/orgs/FountainJS/people\">\n    FountainJS team\n  </a>\n</footer>\n";
+module.exports = "<footer class=\"footer\">\n  Build with ♥ by TROYleach;\n    <!-- <a href=\"https://github.com/orgs/FountainJS/people\"> -->\n    <!-- FountainJS team -->\n    <!-- </a> -->\n</footer>\n";
 
 /***/ },
 /* 13 */
 /***/ function(module, exports) {
 
-module.exports = "<header class=\"header\">\n  <p class=\"header-title\">\n    <a href=\"https://github.com/FountainJS/generator-fountain-webapp\" target=\"_blank\">\n      Fountain Generator\n    </a>\n  </p>\n  <p class=\"header-date\">\n    Generated with FountainJS v1.0.0-rc2 on Sun Feb 19 2017 16:13:41 GMT-0600 (CST)\n  </p>\n</header>\n";
+module.exports = "<header class=\"header\">\n  <p class=\"header-title\">\n      <!-- <a href=\"https://github.com/FountainJS/generator-fountain-webapp\" target=\"_blank\"> -->\n      <!-- Fountain Generator -->\n      <!-- </a> -->\n  </p>\n  <p class=\"header-date\">\n      <!-- Generated with FountainJS v1.0.0-rc2 on Sun Feb 19 2017 16:13:41 GMT-0600 (CST) -->\n  </p>\n</header>\n";
 
 /***/ },
 /* 14 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"main-container\">\n  <fountain-header></fountain-header>\n  <main class=\"main\">\n    <fountain-title></fountain-title>\n    <fountain-techs></fountain-techs>\n  </main>\n  <fountain-footer></fountain-footer>\n</div>\n";
+module.exports = "<div class=\"main-container\">\n    <!-- <fountain-header></fountain-header> -->\n  <main class=\"main\">\n      <!-- <fountain-title></fountain-title> -->\n    <fountain-techs></fountain-techs>\n  </main>\n  <fountain-footer></fountain-footer>\n</div>\n";
 
 /***/ },
 /* 15 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"tech\">\n  <img class=\"tech-logo\" ng-src=\"{{ $ctrl.tech.logo }}\"/>\n  <h3 class=\"tech-h3\">\n    {{ $ctrl.tech.title }}\n  </h3>\n  <p>{{ $ctrl.tech.text1 }}</p>\n  <p>{{ $ctrl.tech.text2 }}</p>\n</div>\n";
+module.exports = "<div class=\"card\">\n    <!-- <img class=\"card-logo\" ng-src=\"{{ $ctrl.card.logo }}\"/> -->\n  <p>{{ $ctrl.card.text1 }}</p>\n  <h1 class=\"card-h1\">\n    {{ $ctrl.card.title }}\n  </h1>\n  <p>{{ $ctrl.card.text2 }}</p>\n</div>\n\n";
 
 /***/ },
 /* 16 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"techs-container\">\n  <h2 class=\"techs-h2\">\n    Cooked with all these awesome technologies:\n  </h2>\n  <div class=\"techs\">\n    <fountain-tech ng-repeat=\"tech in $ctrl.techs\" tech=\"tech\"></fountain-tech>\n  </div>\n</div>\n";
+module.exports = "<div class=\"cards-container\">\n    <!-- <h2 class=\"cards-h2\"> -->\n    <!-- Cooked with all these awesome technologies: -->\n    <!-- </h2> -->\n  <div class=\"cards\">\n    <fountain-tech ng-repeat=\"card in $ctrl.cards\" card=\"card\"></fountain-tech>\n  </div>\n</div>\n";
 
 /***/ },
 /* 17 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"title\">\n  <h1 class=\"title-h1\">'Allo, 'Allo!</h1>\n  <div>\n    <img class=\"title-logo\" src=\"http://fountainjs.io/assets/imgs/yeoman.png\"/>\n    <img class=\"title-logo\" src=\"http://fountainjs.io/assets/imgs/fountain.png\"/>\n  </div>\n  <h2 class=\"title-h2\">Always a pleasure scaffolding your apps.</h2>\n</div>\n";
+module.exports = "<div class=\"title\">\n  <h1 class=\"title-h1\">Full Stack Web Developer</h1>\n  <div>\n      <!-- <img class=\"title-logo\" src=\"http://fountainjs.io/assets/imgs/yeoman.png\"/> -->\n      <!-- <img class=\"title-logo\" src=\"http://fountainjs.io/assets/imgs/fountain.png\"/> -->\n  </div>\n  <h2 class=\"title-h2\">My favorite thing? Learn a new way of doing it!</h2>\n</div>\n";
 
 /***/ },
 /* 18 */
@@ -41420,7 +41420,7 @@ module.exports = "<div class=\"title\">\n  <h1 class=\"title-h1\">'Allo, 'Allo!<
 module.exports = {
   template: __webpack_require__(15),
   bindings: {
-    tech: '<'
+    card: '<'
   }
 };
 
@@ -41442,7 +41442,7 @@ function TechsController($http) {
   $http
     .get('app/techs/techs.json')
     .then(function (response) {
-      vm.techs = response.data;
+      vm.cards = response.data;
     });
 }
 

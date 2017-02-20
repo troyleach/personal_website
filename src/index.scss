@@ -58,7 +58,7 @@ a {
 }
 .title-h1 {
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 4vw;
   margin: 1rem;
 }
 .title-logo {
@@ -92,26 +92,24 @@ a {
 }
 .cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
 }
 
 .card {
-  height: 20rem;
-  width: 30rem;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   border-radius: 0.3rem;
-  margin: 1rem;
-  padding: 1rem;
+  /* margin: 1rem; */
+  /* padding: 1rem; */
   color: #fff;
   text-align: center;
 }
 .card-logo {
-  width: 5rem;
+  width: 20vw;
   height: auto;
-  float: right;
-  margin: 0 0 .5rem .5rem;
+  /* float: right; */
+  /* margin: 0 0 .5rem .5rem; */
 }
 .card-h3 {
   color: #fff;

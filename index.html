@@ -1,15 +1,50 @@
 <!doctype html>
-<html>
-  <head>
-    <base href="/">
-    <meta charset="utf-8">
-    <title>FountainJS</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- <link rel="icon" type="image/png" href="http://fountainjs.io/assets/imgs/fountain.png" /> -->
-  </head>
 
-  <body>
-    this is my site
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <style>
+    body {
+      background-color: #1f1f1f;
+      color: #fff;
+      text-align: center;
+    }
+    img {
+      width: 20vw;
+    }
+    .container {
+      top: 40%;
+      left: 50%;
+      margin-top: -9em; /*set to a negative number 1/2 of your height*/
+      margin-left: -15em; /*set to a negative number 1/2 of your width*/
+      position:fixed;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img alt="Image of Troy Leach" src="image/troy3.png"/>
+    <p>
+      HI, my name is Troy Leach and I am
+    </p>
+    <h1>
+      FULL STACK WEB DEVELOPER
+    </h1>
+    <p>
+      My favorite thing? Learning new ways of building software
+    </p>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
 </html>

@@ -1,50 +1,92 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-  <title>TROYleach</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+    <title>TROYleach</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-  <style>
-    body {
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+      body {
       background-color: #1f1f1f;
       color: #fff;
       text-align: center;
-    }
-    img {
+      }
+      a, u {
+      text-decoration: none;
+      }
+      a:visited {
+      color: #5e763a;
+      }
+      img {
       width: 20vw;
-    }
-    .container {
-      top: 40%;
-      left: 50%;
-      margin-top: -9em; /*set to a negative number 1/2 of your height*/
-      margin-left: -15em; /*set to a negative number 1/2 of your width*/
-      position:fixed;
-    }
-  </style>
-</head>
+      }
+      .container {
+      }
+      .git-icon {
+      color: #5e763a;
+      font-size: 4em;
+      }
+      .social {
+      text-align: center;
+      }
+      .social-icon {
+      color: #72726a;
+      font-size: 1.5em;
+      }
+      table tr td {
+      width: 5vw;
+      }
+      .line-style {
+      width: 25%;
+      border-bottom: 1px solid #72726a;
+      margin-top: 3em;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="container">
-    <img alt="Image of Troy Leach" src="image/troy3.png"/>
-    <p>
-      HI, my name is Troy Leach and I am a
-    </p>
-    <h1>
-      FULL STACK WEB DEVELOPER
-    </h1>
-    <p>
-      My favorite thing? Learning new ways of building software
-    </p>
-  </div>
-  <script src="js/scripts.js"></script>
-</body>
+  <body>
+    <div class="container">
+      <img alt="Image of Troy Leach" src="image/troy3.png" style="padding: 10px 0 25px 0"/>
+      <p>
+        HI, my name is <span style="color: #5e763a">TROY Leach</span> and I am a
+      </p>
+      <h1>
+        FULL STACK WEB DEVELOPER
+      </h1>
+      <p>
+        My favorite thing? Learning new ways of building software
+      </p>
+
+      <hr class="line-style"/>
+      <div class="social">
+        <table style="margin: 0 auto; width">
+          <tr>
+            <td>
+              <a href="https://plus.google.com/100235641551070410533" target="_blank">
+                <i class="fa fa-google-plus social-icon" aria-hidden="true"></i>
+              </a>
+            </td>
+            <td>
+              <a href="https://github.com/troyleach" target="_blank">
+                <i class="fa fa-code-fork git-icon" aria-hidden="true"></i>
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/troyleach29" target="_blank">
+                <i class="fa fa-twitter social-icon" aria-hidden="true"></i>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <script src="js/scripts.js"></script>
+  </body>
 </html>
